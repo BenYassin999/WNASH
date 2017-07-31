@@ -1,0 +1,167 @@
+/* start genral */
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+
+*{
+        box-sizing: border-box;
+        text-align: center;
+}
+
+/* end genral */
+
+
+/*
+
+fonts ..
+ font-family: 'hacen_casablanca_lightregular';
+font-family: 'Cairo', sans-serif;
+*/
+
+
+/* start heder */
+
+.hed
+{
+    display: none;
+    background-image: url(../img/bacc.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 662px;
+}
+
+.slid 
+{
+    display: none
+}
+
+.slid h1
+{
+    font-family: 'hacen_casablanca_lightregular';
+    color: white;
+    margin-top: 278px;
+    font-size: 47px;
+}
+
+.slid p
+{
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+/* end heder */
+
+/* start button in heder */
+
+
+.but
+{
+    display: none;
+}
+
+.myButton1 , .myButton2 {
+    opacity: 0.7;
+	background-color:#363835;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Lemonada', cursive;
+	font-size:28px;
+	padding:16px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    transition: all .6S;
+}
+
+
+.myButton1
+{
+    
+    width: 43%;
+    font-size: 20px;
+    margin-right: 183px;
+}
+
+.myButton1:hover
+{
+    opacity: 1;    
+	background-color:#323834;
+    transform: scale(1.1,1.1)
+}
+
+
+.myButton2
+{
+    width: 29%;
+    font-size: 19px;
+    margin: 10;
+    margin-left: -149px;
+}
+
+
+.myButton2:hover {
+    opacity: 1;
+	background-color:#323834;
+    transform: scale(1.1,1.1)
+}
+
+
+/* end button in heder */
+
+
+/* start down from  heder */
+.ToUnd
+{
+    display: none;
+}
+
+.hed .ToUnd img
+{
+    height: 43px;
+    width: 67px;
+    margin-top: 87px;
+    animation-duration: 1s; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite;
+    animation-name: slideInDown;
+}
+
+
+
+@keyframes slideInDown { 
+    0% { 
+        transform: translate3d(0, -100%, 0); 
+        visibility: visible; 
+    } 
+    100% { 
+        transform: translate3d(0, 0, 0); 
+    } 
+} 
+.slideInDown { 
+    animation-name: slideInDown; 
+}
+
+
+
+
+/* end  down from  heder */
+
+
+
+/* start  Haj */
+
+
+
+.Haj
+{
+    height: 1000px;
+    background-color: chocolate;
+    
+}
+
+
+/* end  Haj */
